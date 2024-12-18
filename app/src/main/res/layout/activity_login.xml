@@ -19,6 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+
     <!-- Title -->
     <TextView
         android:id="@+id/tv_title"
@@ -59,36 +60,46 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
-        <EditText
-            android:id="@+id/et_email"
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/rounded_input"
-            android:drawableStart="@drawable/ic_username"
-            android:drawablePadding="10dp"
-            android:hint="@string/email"
-            android:inputType="textEmailAddress"
-            android:padding="15dp"
-            android:autofillHints="emailAddress"
-            android:textColor="@color/black"
-            android:textColorHint="@color/gray" />
+            android:layout_marginBottom="12dp"
+            app:startIconDrawable="@drawable/ic_username"
+            app:startIconTint="@color/primary_color"
+            app:boxStrokeColor="@color/primary_color"
+            app:boxBackgroundMode="outline">
 
-        <EditText
-            android:id="@+id/et_password"
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:autofillHints="password"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/rounded_input"
-            android:drawableStart="@drawable/ic_password"
-            android:drawablePadding="10dp"
-            android:drawableTint="@color/primary_color"
-            android:hint="@string/password"
-            android:inputType="textPassword"
-            android:padding="15dp"
-            android:textColor="@color/black"
-            android:textColorHint="@color/gray"
-            tools:ignore="PrivateResource" />
+            android:layout_marginBottom="12dp"
+            app:startIconTint="@color/primary_color"
+            app:startIconDrawable="@drawable/ic_password"
+            app:passwordToggleEnabled="true"
+            app:boxStrokeColor="@color/primary_color"
+            app:boxBackgroundMode="outline"
+            tools:ignore="PrivateResource">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray" />
+        </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
             android:id="@+id/tv_forgot_password"

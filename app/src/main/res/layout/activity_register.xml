@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -97,7 +98,8 @@
         app:startIconDrawable="@drawable/ic_password"
         app:passwordToggleEnabled="true"
         app:boxStrokeColor="@color/primary_color"
-        app:boxBackgroundMode="outline">
+        app:boxBackgroundMode="outline"
+        tools:ignore="PrivateResource">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_password"
@@ -118,7 +120,8 @@
         app:startIconTint="@color/primary_color"
         app:passwordToggleEnabled="true"
         app:boxStrokeColor="@color/primary_color"
-        app:boxBackgroundMode="outline">
+        app:boxBackgroundMode="outline"
+        tools:ignore="PrivateResource">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_confpassword"

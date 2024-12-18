@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Ternakku</string>
+    <string name="login_illustration">login_illustration</string>
+    <string name="login_title">Selamat Datang di Ternakku!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password\n</string>
+    <string name="register">Register</string>
+
+    <string name="status">Status</string>
+    <string name="asal">Asal</string>
+    <string name="berat_badan">Berat Badan</string>
+    <string name="usia_sapi">Usia Sapi</string>
+    <string name="data_sapi_sekarang">Data Sapi Sekarang</string>
+    <string name="data_kambing_sekarang">Data Kambing Sekarang</string>
+    <string name="berat_badan_awal">Berat Badan Awal</string>
+    <string name="usia_awal">Usia Awal</string>
+    <string name="data_kedatangan_awal">Data Kedatangan Awal</string>
+    <string name="bulan_kedatangan">Bulan Kedatangan</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="jenis">Jenis</string>
+    <string name="something_wrong">Terjadi kesalahan</string>
+    <string name="nama_sapi">Nama Sapi</string>
+    <string name="nama_kambing">Nama Kambing</string>
+    <string name="kesehatan">KESEHATAN</string>
+    <string name="usia_kambing">Usia Kambing</string>
+    <string name="id_pmk">ID PMK</string>
+
+    <string-array name="option_kesehatan">
+        <item>Sehat</item>
+        <item>Sakit</item>
+    </string-array>
+    <string name="title_activity_tambah_data_mutasi">TambahDataMutasiActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="katalog_sapi">Katalog Sapi</string>
+    <string name="katalog_kambing">Katalog Kambing</string>
+
+
+    <string name="inves_sapi">Invesment Sapi</string>
+    <string name="inves_kambing">Invesment Kambing</string>
+    <string name="nama">Nama</string>
+    <string name="phone_number">Phone number</string>
+    <string name="password_reconfirmation">Confirmation Password</string>
+    <string name="app_logo">app logo\n</string>
+
+    <string name="error_password_length">Password must be at least 8 characters</string>
+    <string name="error_account_not_found">Account not found</string>
+    <string name="error_empty_fields">Please fill in all fields</string>
+    <string name="login_desc">Login sekarang! untuk menikmati semua fitur yang tersedia di Ternakku.</string>
+    <string name="register_desc">Daftar sekarang! untuk menikmati semua fitur yang tersedia di Ternakku.</string>
+    <string name="don_t_have_an_account_create_now">Don\'t have an account? Create now</string>
+
+</resources>
